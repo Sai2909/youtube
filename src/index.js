@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 //  import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Main from './advance_routing/Main';
+// import Tabs from './tabs/Tabs';
+import FillExample from './tabs/Tabs';
+// import Main from './advance_routing/Main';
 // import GetExample1 from './api/GetExample1';
 // import Main from './Routing/Main';
 
@@ -11,7 +13,7 @@ import Main from './advance_routing/Main';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Main/>
+  <FillExample/>
 
 );
 

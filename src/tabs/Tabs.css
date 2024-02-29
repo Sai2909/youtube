@@ -1,0 +1,22 @@
+.active {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .tabs {
+    background-color: #eee;
+    color: #333;
+  }
+  
+  .content-active {
+    display: block;
+  }
+  
+  .content {
+    display: none;
+  }
+  
+  .container{
+    justify-content: space-between;
+  }
+  
