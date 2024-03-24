@@ -6,7 +6,8 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 // import reportWebVitals from './reportWebVitals';
 // import Search from './search/Search';
 // import NormalSearch from './search/NormalSearch';
-import MainSearch from './search-debounce-input/hooks/MainSearch';
+// import MainSearch from './search-debounce-input/hooks/MainSearch';
+import Changcolor from './backgroundChanger/Changcolor';
 // import Tabs from './tabs/Tabs';
 // import FillExample from './tabs/Tabs';
 // import Main from './advance_routing/Main';
@@ -17,7 +18,7 @@ import MainSearch from './search-debounce-input/hooks/MainSearch';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <MainSearch/>
+  <Changcolor/>
 
 );
 
